@@ -18,6 +18,8 @@
 2. Mantén la estructura de carpetas tal cual.
 3. Abre `index.html` en tu navegador.
 
+https://github.com/EnriqueArroyo-edu/plan-de-negocios-arroyo-enrique-ACN6BV
+
 > **Nota:** Para rutas dentro de `pages/`, los enlaces a CSS e imágenes usan `../` para volver al root.
 
 ---
