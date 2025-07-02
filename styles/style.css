@@ -1,0 +1,64 @@
+/* styles/style.css */
+
+/* Variables de color */
+:root {
+  --primary: #7DAB40;
+  --accent:  #B01016;
+}
+
+/* Reset y tipografía global */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main flex-grow para empujar el footer */
+main {
+  flex: 1;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--primary) !important;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 4rem 2rem;
+}
+
+/* Botones primarios */
+.btn-primary {
+  background-color: var(--accent);
+  border: none;
+}
+.btn-primary:hover {
+  background-color: var(--primary);
+  border: none;
+}
+
+/* Encabezados y texto */
+h1 {
+  font-weight: 600;
+}
+h2 {
+  font-weight: 400;
+}
+p {
+  font-weight: 300;
+}
+
+/* Colores utilitarios */
+.text-primary {
+  color: var(--primary) !important;
+}
+
+/* Footer sin márgenes extra */
+footer {
+  margin-top: 0;
+}
