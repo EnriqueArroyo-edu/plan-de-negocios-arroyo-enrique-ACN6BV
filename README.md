@@ -10,32 +10,6 @@
 
 ---
 
-## Estructura de carpetas
-
-/
-├─ index.html
-├─ pages/
-│ ├─ about.html
-│ ├─ services.html
-│ ├─ testimonials.html
-│ └─ contact.html
-├─ styles/
-│ └─ style.css
-└─ assets/
-├─ img/
-│ ├─ logo.png
-│ ├─ ng.png
-│ ├─ g1.png
-│ ├─ check.png
-│ ├─ logo-loyalty-plus.png
-│ ├─ rappi.png
-│ ├─ pedidosya.png
-│ └─ icons/
-│ │├─ facebook.png
-│ │├─ instagram.png
-│ │└─ linkedin.png
-
----
 
 ## Cómo levantar el sitio
 
@@ -64,10 +38,10 @@
 
 - **Google Fonts: Poppins (300–700).**
 
-```html
-<link
-  href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-  rel="stylesheet"
-/>
-```
+  ```html
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  ```
 - **Estilos propios en styles/style.css.**
